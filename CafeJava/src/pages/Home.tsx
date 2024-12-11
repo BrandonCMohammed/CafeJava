@@ -3,13 +3,12 @@ import InfoCard from "../components/InfoCard";
 import ProductCard from "../components/ProductCard";
 import Footer from "../components/Footer";
 
-
 function Home() {
   return (
     <>
       <Header />
 
-      <div className="container-fluid py-6 ">
+      <div className="container-fluid py-6 bg-custom-black75">
         <div className="row gy-3 gx-5">
           <div className="col-lg">
             <InfoCard />

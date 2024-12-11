@@ -4,7 +4,7 @@ function InfoCard() {
       <div className="d-flex justify-content-center">
         <a href="https://google.com" target="_blank" className="">
           <div
-            className="card bg-secondary custom-max-width "
+            className="card  custom-max-width "
             style={{ minHeight: "20rem" }}
           >
             <div className="card-body d-flex justify-content-center align-items-end">
