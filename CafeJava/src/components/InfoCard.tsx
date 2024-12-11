@@ -2,11 +2,7 @@ function InfoCard() {
   return (
     <>
       <div className="d-flex justify-content-center">
-        <a
-          href="https://google.com"
-          target="_blank"
-          className=""
-        >
+        <a href="https://google.com" target="_blank" className="">
           <div
             className="card bg-secondary custom-max-width "
             style={{ minHeight: "20rem" }}

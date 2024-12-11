@@ -3,7 +3,7 @@ import logo from "../assets/CafeJava Logo.png";
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary p-0">
-      <div className="container-fluid px-double3">
+      <div className="container-fluid ">
         <img src={logo} alt="Bootstrap" width="178" height="144"></img>
         <button
           className="navbar-toggler"

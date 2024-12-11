@@ -1,18 +1,18 @@
-function Hero()
-{
+import HeroCarousel from "../components/HeroCarousal";
 
-    return(
-
-        <>
-            <div
-                className="w-auto bg-primary d-flex justify-content-center align-items-center"
-                style={{ height: "400px" }}
-            >
-                Hero area
-            </div>
-        
-        </>
-    )
+function Hero() {
+  return (
+    <>
+      <div
+        className=" bg-primary row"
+        style={{ height: "400px" }}
+      >
+        <div className="col ">
+          <HeroCarousel />
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default Hero;

@@ -23,20 +23,20 @@ $spacers: (
   double3: $spacer *2,
 );
 
-// .custom-max-width {
-//     max-width: 520px; /* Set your desired max width */
-// };
+.custom-max-width {
+    max-width: 520px; /* Set your desired max width */
+};
 
-@media (min-width: 540px) { /* Large screens (≥992px) */
-    .custom-max-width {
-      max-width: 1200px;
-    }
-  }
+// @media (min-width: 540px) { /* Large screens (≥992px) */
+//     .custom-max-width {
+//       max-width: 1200px;
+//     }
+//   }
 
-  @media (min-width: 1200px) { /* Large screens (≥992px) */
-    .custom-max-width {
-      max-width: 520px;
-    }
-  }
+//   @media (min-width: 1200px) { /* Large screens (≥992px) */
+//     .custom-max-width {
+//       max-width: 520px;
+//     }
+//   }
 
 @import 'bootstrap/scss/bootstrap.scss'
