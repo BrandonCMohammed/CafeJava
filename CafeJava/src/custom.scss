@@ -1,6 +1,8 @@
 
 $primary: #EA642A;
 $secondary: #DB425C;
+$danger: #FF543D;
+$success: #42DB5F;
 
 //Adding new background colors
 // Step 1: Import Bootstrap's core files
@@ -10,10 +12,14 @@ $secondary: #DB425C;
 
 // Step 2: Add your custom colors
 $custom-colors: (
-  "custom-blue": #4a90e2,
-  "custom-green": #4caf50,
-  "custom-red": #e94e77,
-  "custom-black75" : #5A5857 
+
+  "custom-black75" : #5A5857, 
+  "custom-black50" : #91908F,
+  "custom-black25" : #C8C7C7,
+  "custom-black10" : #E9E9E9,
+  "custom-black5" : #F4F4F3,
+
+
 );
 
 // The can be referenced using bg-custom-color-name
@@ -21,26 +27,26 @@ $custom-colors: (
 // Step 3: Merge your custom colors with Bootstrap's theme colors
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
-// $spacer: 1rem;
-// $spacers: (
-//   0: 0,
-//   1: $spacer * .25,
-//   2: $spacer * .5,
-//   3: $spacer,
-//   4: $spacer * 1.5,
-//   5: $spacer * 3,
-//   6: $spacer * 4,
-//   7: $spacer * 5,
-//   8: $spacer * 6,
-//   9: $spacer * 7,
-//   10: $spacer * 8,
-//   11: $spacer * 9,
-//   12: $spacer * 10,
-//   13: $spacer * 11,
-//   14: $spacer * 12,
-//   15: $spacer * 13,
-//   double3: $spacer *2,
-// );
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 7,
+  10: $spacer * 8,
+  11: $spacer * 9,
+  12: $spacer * 10,
+  13: $spacer * 11,
+  14: $spacer * 12,
+  15: $spacer * 13,
+  double3: $spacer *2,
+);
 
 
 
